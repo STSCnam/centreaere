@@ -1,0 +1,14 @@
+{
+    "name": "arthuchaut/centreaere",
+    "require": {
+        "enginr/enginr": "dev-master",
+        "pug-php/pug": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Controller\\": "controllers/",
+            "Models\\": "models/",
+            "Utils\\": "libs/"
+        }
+    }
+}
